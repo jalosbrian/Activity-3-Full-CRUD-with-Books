@@ -1,0 +1,5 @@
+<nav class="text-sm text-gray-500 px-6 pt-4">
+  <span>Dashboard</span>
+  <span class="mx-1">/</span>
+  <span class="text-gray-800 font-medium">Overview</span>
+</nav>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Edit Book</title></head>
+<body>
+  <h1>Edit Book</h1>
+  <form action="/books/{{book.id}}" method="POST">
+    <input name="title" value="{{book.title}}" required>
+    <input name="author" value="{{book.author}}" required>
+    <input name="genre" value="{{book.genre}}">
+    <input name="price" type="number" step="0.01" value="{{book.price}}">
+    <input name="stock" type="number" value="{{book.stock}}">
+    <button type="submit">Update</button>
+  </form>
+  <p><a href="/books">Back</a></p>
+</body>
+</html>
